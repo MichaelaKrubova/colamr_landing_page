@@ -324,3 +324,36 @@ html {
     margin-bottom: 1px;
 }
 
+
+/*FOOTER*/
+footer {
+    border-top: 1px solid #d8d8d8;
+    display: flex;
+    padding: 16px 24px;
+    justify-content: space-between;
+    font-size: 0.8rem;
+}
+
+footer p {
+    float: left;
+}
+
+.footer-menu {
+    list-style-type: none;
+}
+
+.footer-menu li {
+    display: inline;
+    padding-left: 16px;
+    float: right;
+    
+}
+
+.footer-menu a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.2s ease-in ;
+}
+
+.footer-menu a:hover {
+    color: lightslategray;
