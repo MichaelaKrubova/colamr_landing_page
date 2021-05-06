@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 19px;
@@ -8,8 +13,7 @@ html {
 
 .heading {
     display: flex;
-    height: 64px;
-    margin: 0 24px;
+    margin: 16px 24px;
     justify-content: space-between;
 }
 
@@ -80,12 +84,14 @@ html {
 .header1 h2 {
     font-size: 2.5rem;
     font-weight: 700;
+    padding-bottom: 32px;
 }
 
 .header1 h3
 {
     font-size: 1.3rem;
     font-weight: 600;
+    padding-bottom: 48px;
 }
 
 .button {
@@ -108,6 +114,7 @@ html {
     color: #4a4a4a;
     width: 60%;
     padding-right: 24px;
+
     
 }
 
@@ -119,6 +126,7 @@ html {
 .header2 h2 {
     font-size: 2.5rem;
     font-weight: 700;
+    padding: 32px 0;
 }
 
 .header2 p {
@@ -151,10 +159,16 @@ html {
 
 .description {
     width: 65%;
+    line-height: 1.2;
 }
 
 .description h4 {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
+    margin-bottom: 0;
+}
+
+.description p {
+    padding: 8px 0;
 }
 
 
@@ -183,5 +197,71 @@ html {
     padding-right: 16px;
 }
 
+/*Start learning*/
+.container3 {
+    background-color:#d8d8d8;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: #4a4a4a;
+}
 
+.container3 h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 32px;
+    width: 100%;
+}
+
+.boxes1 {
+    display: flex;
+    flex-wrap: no-wrap;
+    padding: 32px 72px;
+}
+
+.boxes1 img {    
+    max-width: inherit;
+    height: auto;
+}
+
+.boxes1 .description {
+    padding: 16px 16px 24px 16px;
+    line-height: 1.5;
+}
+
+.boxes2 {    
+    display: flex;
+    flex-wrap: no-wrap;
+    padding: 0 72px;
+}
+
+.boxes2 img {    
+    max-width: inherit;
+    height: auto;
+
+}
+
+.boxes2 .description {
+    padding: 16px 16px 24px 16px;
+    line-height: 1.5;
+
+}
+
+.box {
+    max-width: 380px;
+    margin: 0 16px;
+    background-color: white;
+    text-transform: capitalize;
+}
+
+.box1 {
+    max-width: 380px;
+    margin: 0 16px;
+    background-color: white;
+}
+
+.box span {
+    padding: 8px 0;
+}
 
