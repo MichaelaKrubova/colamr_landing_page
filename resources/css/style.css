@@ -204,13 +204,14 @@ html {
     flex-direction: column;
     width: 100%;
     color: #4a4a4a;
+    padding: 32px 72px;
 }
 
 .container3 h2 {
     font-size: 2.5rem;
     font-weight: 700;
     text-align: center;
-    padding: 32px;
+    padding-bottom: 32px;
     width: 100%;
 }
 
@@ -263,5 +264,63 @@ html {
 
 .box span {
     padding: 8px 0;
+}
+
+/*THESIS EXHIBIT*/
+.container4 {
+    background-color:white;
+    margin: 32px 24px;
+    color: #4a4a4a;
+}
+
+.container4 h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+.container4-content {
+    display: flex;
+}
+
+.video-block {
+    width: 60%;
+    padding-right: 24px;
+}
+
+.container4 video {
+    width: 100%;
+    padding-bottom: 24px;
+}
+
+.video-description h4 {
+    padding-bottom: 8px;
+    font-size: 1.6rem;
+}
+
+/*div "Articles" edited in container3"*/
+.Art4 {
+    display: flex;
+    padding: 16px;
+    background-color: #d8d8d8;
+}
+
+.Art4 img {
+    width: 35%;
+    height: auto;
+    padding-right: 16px;
+}
+
+.Art5 {
+    display: flex;
+    padding: 16px;
+}
+
+.Art5 img {
+    width: 35%;
+    height: auto;
+    padding-right: 16px;
+    margin-bottom: 1px;
 }
 
