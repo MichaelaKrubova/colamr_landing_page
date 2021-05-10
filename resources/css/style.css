@@ -11,7 +11,7 @@ html {
 
 /*HEADING*/
 
-.heading {
+.heading-deskop {
     display: flex;
     margin: 16px 24px;
     justify-content: space-between;
@@ -162,6 +162,11 @@ html {
     line-height: 1.2;
 }
 
+.description a {
+    text-decoration: none;
+    color: blue;
+}
+
 .description h4 {
     font-size: 1.6rem;
     margin-bottom: 0;
@@ -262,9 +267,6 @@ html {
     background-color: white;
 }
 
-.box span {
-    padding: 8px 0;
-}
 
 /*THESIS EXHIBIT*/
 .container4 {
@@ -360,24 +362,278 @@ footer p {
 }
 
 @media only screen and (max-width: 768px) {
-    .text,
-    .logo-text {
+    
+    /*MOBILE MENU*/
+    .heading-deskop {
         display: none;
-        float: none;
     }
 
-    .heading {
-        justify-content: space-around;
+    .heading-mobile {
+        display: flex;
+        margin: 16px 24px;
+        justify-content: space-evenly;
     }
 
-    .menu {
-        float: none;
+    /*MOBILE INTRODUCTION*/
+    .container1 {
+        background-color:#d8d8d8;
+        display: flex;
+        flex-flow: column wrap;
+        
     }
+
+    .first-photo {
+        width: 100%;
+        padding: 0;
+    }
+    
+    .header1 {
+        display: flex;
+        align-content: center;
+        flex-wrap: wrap;
+        color: #4a4a4a;
+        width: 100%;
+        padding: 32px 16px; 
+    }
+    
+    .header1 h2 {
+        font-size: 2rem;
+        font-weight: 700;
+        padding-bottom: 32px;
+    }
+    
+    .header1 h3
+    {
+        font-size: 1.2rem;
+        font-weight: 600;
+        padding-bottom: 24px;
+    }
+    
+    .button {
+        background-color: #9b9b9b;
+        color: white;
+        padding: 8px 16px;
+        width: 85%;
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+
+    /*MOBILE MORE INFO*/
+
+    .container2 {
+        background-color:white;
+        display: flex;
+        flex-flow: column wrap;
+        width: 100%;
+        margin: 0;
+        
+    
+    }
+    
+    .header2 {
+        display: none;
+        
+    }
+    
+    .Articles {
+        width: 100%;
+        color: #4a4a4a;
+        padding-top: 16px;
+
+    
+    }
+    
+    .Art1 {
+        display: flex;
+        flex-flow: column wrap;
+        border-bottom: none;
+    }
+    
+    .Art1 img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .description {
+        width: inherit;
+        line-height: 1.2;
+        padding-left: 16px;
+        padding-top: 16px; 
+        padding-bottom: 64px;       
+    }
+    
+    .description h4 {
+        font-size: 1.6rem;
+        margin-bottom: 0;
+    }
+    
+    .description p {
+        padding: 8px 0;
+    }
+    
+    
+    .Art2 {
+        display: flex;
+        flex-flow: column wrap;
+        border-top: none;
+    }
+    
+    .Art2 img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .Art3 {
+        display: flex;
+        flex-flow: column wrap;
+        background-color: white;
+    }
+    
+    .Art3 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .Art3 .description {
+        padding-bottom: 16px;
+    }
+
+    /*MOBILE START LEARNING*/
+
+    .container3 {
+        background-color:white;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        color: #4a4a4a;
+        padding: 32px 0;
+    }
+    
+    .container3 h2 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        text-align: center;
+        padding-bottom: 16px;
+        width: 100%;
+    }
+    
+    .boxes1 {
+        display: flex;
+        flex-flow: column wrap;
+        width: inherit;
+        padding: 0 16px;
+    }
+    
+    .boxes1 img {    
+        display: none;
+    }
+    
+    .boxes1 .description h4 {
+        font-weight: 500;
+    }
+
+    
+    .boxes1 span,
+    .boxes1 p {
+        display: none;
+    }
+
+    
+    .boxes2 {    
+        display: flex;
+        flex-flow: column wrap;
+        width: 100%;
+        padding: 0 16px;
+    }
+    
+    .boxes2 img {    
+        display: none;
+    
+    }
+
+    .boxes2 .description h4 {
+        font-weight: 500;
+    }
+       
+    .boxes2 span,
+    .boxes2 p {
+        display: none;
+    }
+    
+    .box {
+        max-width: 500px;
+        margin: 0;
+        background-color: #d8d8d8;
+        text-transform: capitalize;
+        margin-top: 8px;
+    }
+    
+    .box1 {
+        max-width: 500px;
+        margin: 0;
+        background-color: #d8d8d8;
+    }
+    
+    /*THESIS EXHIBIT*/
+.container4 {
+    background-color:white;
+    margin: 32px 0 0 0;
+    color: #4a4a4a;
 }
 
+.container4 h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+
+.video-block {
+    width: 100%;
+    padding-right: 0;
+}
+
+.container4 video {
+    width: 100%;
+    padding-bottom: 24px;
+}
+
+.video-description h4,
+.video-description p {
+    display: none;
+}
+
+/*div "Articles" edited in container3"*/
+.container4 .Articles {
+    display: none;
+}
+
+/*FOOTER*/
+footer {
+    border-top: 1px solid #d8d8d8;
+    display: flex;
+    padding: 16px 24px;
+    justify-content: left;
+    font-size: 0.8rem;
+}
+
+footer p {
+    float: left;
+}
+
+.footer-menu {
+    display: none;
+}
+
+
 @media only screen and (min-width: 768px) {
-    .icon,
     .logo-img {
+        display: none;
+    }
+
+    .heading-mobile {
         display: none;
     }
 }
